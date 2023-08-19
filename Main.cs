@@ -104,7 +104,9 @@ namespace Genshin_Dialog_Buttons
             {
                 GameObject ButtonO = GameObject.Find(ButtonName);
                 var ButtonC = ButtonO.GetComponent<MoleMole.MihoyoButton>();
-                if (ButtonO.active)
+                GameObject Convo = GameObject.Find("Canvas/Dialogs/DialogLayer(Clone)/TalkDialog/GrpTalk/GrpConversation/TalkGrpConversation_1(Clone)/Content/TxtDesc");
+                var ConvoC = Convo.GetComponent<MoleMole.MonoTypewriter>();
+                if (ButtonO.active && !ConvoC.JBLCLLOKBDC)
                     ButtonC.onClick.Invoke();
             }
         }

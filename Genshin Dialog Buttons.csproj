@@ -35,32 +35,28 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Reference Include="Assembly-CSharp, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
+    <Reference Include="Assembly-CSharp">
       <HintPath>References\Assembly-CSharp.dll</HintPath>
     </Reference>
-    <Reference Include="Il2Cppmscorlib, Version=4.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
+    <Reference Include="Il2CppInterop.Runtime">
+      <HintPath>References\Il2CppInterop.Runtime.dll</HintPath>
+    </Reference>
+    <Reference Include="Il2Cppmscorlib">
       <HintPath>References\Il2Cppmscorlib.dll</HintPath>
     </Reference>
-    <Reference Include="MelonLoader, Version=0.6.1.0, Culture=neutral, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
+    <Reference Include="MelonLoader">
       <HintPath>References\MelonLoader.dll</HintPath>
     </Reference>
-    <Reference Include="UnityEngine, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
+    <Reference Include="UnityEngine">
       <HintPath>References\UnityEngine.dll</HintPath>
     </Reference>
-    <Reference Include="UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
+    <Reference Include="UnityEngine.CoreModule">
       <HintPath>References\UnityEngine.CoreModule.dll</HintPath>
     </Reference>
-    <Reference Include="UnityEngine.TextRenderingModule, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
+    <Reference Include="UnityEngine.TextRenderingModule">
       <HintPath>References\UnityEngine.TextRenderingModule.dll</HintPath>
     </Reference>
-    <Reference Include="UnityEngine.UI, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
+    <Reference Include="UnityEngine.UI">
       <HintPath>References\UnityEngine.UI.dll</HintPath>
     </Reference>
   </ItemGroup>
