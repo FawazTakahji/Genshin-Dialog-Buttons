@@ -4,7 +4,7 @@ using System.Runtime.InteropServices;
 using MelonLoader;
 using Genshin_Dialog_Buttons;
 
-[assembly: MelonInfo(typeof(Genshin_Dialog_Buttons.Main), "Genshin Dialog Buttons", "1.0.0", "FawazT")]
+[assembly: MelonInfo(typeof(Genshin_Dialog_Buttons.Main), "Genshin Dialog Buttons", "1.0.1", "FawazT")]
 [assembly: MelonGame]
 
 // General Information about an assembly is controlled through the following
